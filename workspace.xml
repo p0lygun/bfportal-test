@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables></variables>
+  <block type="modBlock" deletable="false" x="10" y="10">
+    <statement name="RULES">
+      <block type="ruleBlock">
+        <mutation isOnGoingEvent="true"></mutation>
+        <field name="NAME">New Rule</field>
+        <field name="EVENTTYPE">Ongoing</field>
+        <field name="OBJECTTYPE">Global</field>
+      </block>
+    </statement>
+  </block>
+</xml>
