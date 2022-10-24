@@ -1,12 +1,36 @@
 <xml xmlns="https://developers.google.com/blockly/xml">
   <variables></variables>
-  <block type="modBlock" deletable="false" x="10" y="10">
+  <block type="modBlock" deletable="false" x="386" y="-161">
     <statement name="RULES">
       <block type="ruleBlock">
         <mutation isOnGoingEvent="true"></mutation>
-        <field name="NAME">New Rule</field>
+        <field name="NAME">1</field>
         <field name="EVENTTYPE">Ongoing</field>
         <field name="OBJECTTYPE">Global</field>
+        <next>
+          <block type="ruleBlock">
+            <mutation isOnGoingEvent="true"></mutation>
+            <field name="NAME">3</field>
+            <field name="EVENTTYPE">Ongoing</field>
+            <field name="OBJECTTYPE">Global</field>
+            <next>
+              <block type="ruleBlock">
+                <mutation isOnGoingEvent="true"></mutation>
+                <field name="NAME">4</field>
+                <field name="EVENTTYPE">Ongoing</field>
+                <field name="OBJECTTYPE">Global</field>
+                <next>
+                  <block type="ruleBlock">
+                    <mutation isOnGoingEvent="true"></mutation>
+                    <field name="NAME">2</field>
+                    <field name="EVENTTYPE">Ongoing</field>
+                    <field name="OBJECTTYPE">Global</field>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
       </block>
     </statement>
   </block>
